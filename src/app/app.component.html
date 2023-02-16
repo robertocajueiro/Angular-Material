@@ -2,9 +2,9 @@
   <mat-sidenav
     class="sidenav"
     #sidenav
-    opened
+    [opened]="!isSmallScreen"
     [fixedInViewport]="true"
-    mode="push"
+    [mode]="sidenavMode"
     >
   </mat-sidenav>
 
