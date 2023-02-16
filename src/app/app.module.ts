@@ -5,11 +5,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './material/material.module';
+import { ButtonsIconsComponent } from './buttons-icons/buttons-icons.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
-  ],
+      ButtonsIconsComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
