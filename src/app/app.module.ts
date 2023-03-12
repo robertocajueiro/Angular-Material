@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './material/material.module';
 import { ButtonsIconsComponent } from './buttons-icons/buttons-icons.component';
+import { FormFieldInputComponent } from './form-field-input/form-field-input.component';
 
 @NgModule({
   declarations: [	
     AppComponent,
-      ButtonsIconsComponent
+      ButtonsIconsComponent,
+      FormFieldInputComponent
    ],
   imports: [
     BrowserModule,
